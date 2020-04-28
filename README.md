@@ -14,10 +14,10 @@ To install the Gazebo9 and jMAVSim simulators:
 source ubuntu_sim.sh
 ```
 To install the development toolchain:
-1. Download [ubuntu_sim_ros_melodic.sh].
+1. Download [ubuntu_sim_ros_gazebo.sh](https://github.com/pkyadav73199/ROS_Gazebo_Simulation/blob/master/ubuntu_sim_ros_gazebo.sh).
 2. Run the script in a bash shell:
 ```
-source ubuntu_sim_ros_melodic.sh
+source ubuntu_sim_ros_gazebo.sh
 ```
 
 ## PX4 installation
@@ -39,7 +39,7 @@ make px4_sitl gazebo
 2. Start gazebo 
 ```markdown
 cd ~/src/Firmware
-make posix_sitl_default gazebo
+make px4_sitl gazebo
 ```
 3. Launch px4 with mavros
 ```markdown
