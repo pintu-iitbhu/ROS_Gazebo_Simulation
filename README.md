@@ -6,16 +6,8 @@
 ## PX4 installation
 ```
 mkdir -p ~/src
-```
-```
 cd ~/src
-```
-```
 git clone https://github.com/pkyadav73199/Firmware.git
-```
-```
 cd Firmware
-```
-```
 git submodule update --init --recursive
 ```
