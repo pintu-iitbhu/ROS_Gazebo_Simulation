@@ -4,10 +4,10 @@
 ### Before coming to ROS with Gaszebo Simulation you need prior setting.You can find here [Autonomous_Quadcopter](https://github.com/pkyadav73199/Autonomous_Quadcopter)
 
 ### Installation
-# Gazebo 7 setup is included in our standard build instructions.
+#### Gazebo 7 setup is included in our standard build instructions.
 * Linux: Development Environment on Linux (Ubuntu 16.04) > jMAVSim/Gazebo Simulation
 
-To install the Gazebo9 and jMAVSim simulators:
+To install the Gazebo7 and Gazebo/jMAVSim simulators:
 1. Download [ubuntu_sim.sh](https://github.com/pkyadav73199/ROS_Gazebo_Simulation/blob/master/ubuntu_sim.sh).
 2. Run the script in a bash shell:
 ```
