@@ -28,6 +28,17 @@ git clone https://github.com/pkyadav73199/Firmware.git
 cd Firmware
 git submodule update --init --recursive
 ```
+## Install PX4 Dependencies
+### Install PX4 "common" dependencies.
+```
+cd ~/src/Firmware
+./Tools/setup/ubuntu.sh --no-sim-tools --no-nuttx
+```
+
+### Gstreamer plugins (for Gazebo camera)
+```
+sudo apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly libgstreamer-plugins-base1.0-dev
+```
 
 ## Running UAV Simulation with px4 firmware
 ```
