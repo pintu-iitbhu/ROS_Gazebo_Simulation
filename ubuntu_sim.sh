@@ -19,14 +19,14 @@ if [[ $wget_return_code -ne 0 ]]; then echo "Error downloading 'ubuntu_sim_commo
 
 ###
 # Gazebo (9) simulator dependencies
-echo "Installing Gazebo9"
+echo "Installing Gazebo7"
 sudo apt-get install protobuf-compiler libeigen3-dev libopencv-dev -y
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu-stable `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-stable.list'
 ## Setup keys
 wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 ## Update the debian database:
 sudo apt-get update -y
-## Install Gazebo9
+## Install Gazebo7
 sudo apt-get install gazebo7 -y
 ## For developers (who work on top of Gazebo) one extra package
 sudo apt-get install libgazebo7-dev -y
